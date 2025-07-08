@@ -1,4 +1,6 @@
+import React from "react";
 import Image from "next/image";
+import { Button } from '@ranm8/design.ui.button';
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -89,6 +91,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+        <Button>Hello world</Button>
       </footer>
     </div>
   );

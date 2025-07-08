@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Bit
+.bit
+public
+
+# Bit files - generated during bit ws-config write command
+tsconfig.json
+.eslintrc.json 
+.prettierrc.cjs
+# allow tsconfig from the env's config dir to be tracked
+!**/config/tsconfig.json
+
